@@ -1,3 +1,7 @@
+provider "azurerm" {
+  features {}
+}
+
 #create resource group
 resource "azurerm_resource_group" "emma_RG" {
   name     = var.resource_group
